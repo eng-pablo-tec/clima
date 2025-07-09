@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Clima e Previsão - Simulação INMET</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Barra Lateral Esquerda -->
+    <aside class="sidebar">
+      <h3>Previsão</h3>
+      <button>Previsão para Capitais</button>
+      <button>Previsão por E-Mail</button>
+      <button>Avisos Meteorológicos</button>
+      <button>Previsão Climática</button>
+
+      <h3>Monitoramento</h3>
+      <button>Condições Registradas</button>
+      <button>Precipitação Acumulada</button>
+      <button>Geadas</button>
+      <button>Maiores Temperaturas</button>
+      <button>Menores Umidades</button>
+    </aside>
+
+    <!-- Mapa Central -->
+    <main class="mapa">
+  <!-- Mapa Simulado com CSS -->
+<div class="mapa-css">
+  <div class="chuva-simulada"></div>
+  <div class="legenda">
+    <span>0</span>
+    <span>10</span>
+    <span>25</span>
+    <span>50</span>
+    <span>75</span>
+    <span>100+</span>
+  </div>
+</div>
+    </main>
+
+    <!-- Painel Direito -->
+    <aside class="painel-direito">
+      <div class="info">
+        <h3>TEMPERATURA</h3>
+        <div class="temp">
+          <span class="frio">❄ 15°C</span>
+          <span class="quente">🌡 25°C</span>
+        </div>
+        <h3>UMIDADE</h3>
+        <div class="umidade">
+          <span class="alta">💧 65%</span>
+          <span class="baixa">🔥 25%</span>
+        </div>
+        <h3>Hoje</h3>
+        <div class="dados-dia">
+          <span>🌅 06h40</span>
+          <span>🌇 17h54</span>
+          <span>🌕 Lua Cheia</span>
+          <span>❄ Inverno</span>
+        </div>
+        <div class="previsao">
+          <p>🌤 Poucas nuvens</p>
+          <p>🌬 Vento: Fraco/Moderado (E-SE)</p>
+        </div>
+      </div>
+      <div class="botoes">
+        <button>Próximos Dias</button>
+        <button>Meteogramas</button>
+      </div>
+    </aside>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
